@@ -1,0 +1,188 @@
+body {
+	margin-top: 20;
+	margin-left: 120;
+	margin-right: 100;
+	margin-bottom: 100px;
+}
+
+button {
+		border: none;
+		padding: 5px;
+		font-size: 15px;
+		height: 27px;
+		border-radius: 3px;
+		background-color: #ffffff;
+		font-family: Raleway;
+		font-weight: bold;
+		width: 100px;
+	}
+.nav {
+	background-color: #212121";
+	margin: 0;
+	display: flex;
+	 & button {
+		border: none;
+		padding: 5px;
+		font-size: 15px;
+		height: 27px;
+		border-radius: 3px;
+		background-color: #ffffff;
+		font-family: Raleway;
+		font-weight: bold;
+		width: 100px;
+	}
+	.titles {
+		font-family: raleway;
+		margin-left: 20px;
+		color: #E5FCC2;
+		margin-right: 20px;
+		& h1 {
+			margin-top: 10px;
+			margin-bottom: 0;
+			display: block;
+		}
+		& h3 {
+			margin-top: 10px;
+			display: block;
+		}
+	}
+	.passwords {
+		display: flex;
+		margin-left: auto;
+		margin-right: 20px;
+		.forms {
+			margin-top: 12px;
+			margin-right: 20px;
+			& input {
+				border: none;
+				border-radius: 2px;
+				padding: 5px;
+				font-family: Quicksand;
+				font-weight: bold;
+				color: black;
+				font-size: 15px;
+			}
+			.topInput {
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.reset {
+		display: block;
+		margin-top: 30px;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+.wrap {
+	.navTwo {
+		background-color: #6C5B7B;
+		display: flex;
+		& a {
+			text-decoration: none;
+			color: #A8E6CE;
+			font-size: 20px;
+			font-family: raleway;
+			margin-left: 60px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			display: block;
+		}
+	}
+	.mainPage {
+		.h1Con {
+			padding: 20px;
+			background-color: #45ADA8;
+		}
+		& h1 {
+			font-family: quicksand;
+			font-size: 50px;
+			text-align: center;
+		}
+		& h3 {
+			font-size: 30px;
+			font-family: arvo;
+			text-align: center;
+		}
+	}
+}
+
+h1 {
+	font-family: Raleway;
+}
+
+h2,
+h3 {
+	font-family: quicksand;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #555;
+}
+
+p {
+	font-family: arvo;
+	font-size: 20px;
+	color: white;
+}
+
+input {
+	font-family: quicksand;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+ul {
+	font-family: nunito;
+	li {
+		list-style-type: none;
+		font-size: 20px;
+	}
+}
+
+textarea {
+	font-size: 20px;
+	font-family: quicksand;
+	font-weight: bold;
+}
+
+img {
+	height: 216px;
+	width: 384px;
+}
+
+.subWrap {
+	display: flex;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.right {
+	margin-left: auto;
+	margin-top: 56px;
+	width: 384px;
+}
+
+.social {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	& img {
+		width: 300px;
+		height: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
